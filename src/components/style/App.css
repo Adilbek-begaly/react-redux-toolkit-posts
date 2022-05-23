@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HOME style */
+.home-wrapper {
+  text-align: center;
+  margin-top: 50px;
+}
+.App-logo {
+  height: 50vmin;
+  cursor: pointer;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* USER style */
+.user{
+  text-align: center;
+  margin-top: 30px;
+}
+.user-inputs {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+  margin-top: 30px;
+}
+.input {
+  padding: 8px 15px;
+  margin: 5px 0;
+  border: 1px solid #61dafb;
+}
+.user-name {
+  width: 20%;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ITEM style */
+.item {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.item-submit {
+  margin-top: 30px;
+}
+.item-input{
+  width: 350px;
+  padding: 8px 15px;
+  margin: 5px 0;
+  border: 1px solid #61dafb;
+}
+.button {
+  padding: 8px 15px;
+  margin: 5px 0;
+  border: none;
+  background: #282c34;
+  color: #fff;
+  cursor: pointer;
+}
+
+.item-value {
+  width: 260px;
+  padding: 8px 15px;
+  margin: 5px 0;
+  border: 1px solid #61dafb;
+}
+.item-value-true {
+  width: 260px;
+  padding: 8px 15px;
+  margin: 5px 0;
+  border: 1px solid #61dafb;
+  color: #61dafb;
+}
+.submit {
+  display: flex;
+}

@@ -1,0 +1,41 @@
+.header {
+    height: 10vh;
+    background: #282c34;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 10vmin;
+    cursor: pointer;
+  }
+@media (prefers-reduced-motion: no-preference) {
+    .logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+}
+ @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.navbar {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+.navbar-link:hover{
+    color: #61dafb;
+    transition: 0.3s ease-in;
+}
