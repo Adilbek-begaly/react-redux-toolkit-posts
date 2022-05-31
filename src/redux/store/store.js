@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import postsSlice from "../features/posts/postsSlice";
+import postsSlice from "../../features/posts/postsSlice";
 import todoSlice from "../features/todos/todoSlice";
 import userSlice from "../features/user/userSlice";
 
